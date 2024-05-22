@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FCF9F1;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.logopng{
+    width: 150px;
+}
+
+.nav_container{
+    width: 100%;
+    height: 160px;
+}
+
+nav {
+    width: 100%;
+    height: 160px;
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 25px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #3B5A42;
+}
+
+nav ul li a img {
+    vertical-align: middle;
+}
+
+.container{
+    width: 100%;
+}
+
+
+
+
+.pattern1{
+    position: absolute;
+    margin-left: 50%;
+}
+
+.pattern2{
+    margin-top: -250px;
+    position: absolute;
+    margin-left: 20%;
+    z-index: -1;
+}
+
+
+.ambassador_wrap{
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+}
+
+.ambassttx{
+    width: 820px;
+    margin-top: 130px;
+}
+
+.amimg{
+    width: 800px;
+    margin-right: 6%;
+}
+
+.ammbass{
+    font-family: "Katibeh", serif;
+    color: #D98697;
+    font-size: 62px;
+    font-weight: 400;
+}
+
+.ammbass1{
+    font-size: 60px;
+    font-weight: 600;
+        line-height: 1.2;
+        margin-top: 10px;
+}
+
+.ammbass2{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.mainrest_wrap{
+    width: 100%;
+    display: flex;
+    margin-top: 250px;
+    position: relative;
+}
+
+
+.restimg{
+    width: 820px;
+    margin-left: 52%;
+}
+
+.restttx{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 16%;
+}
+
+.mainrest{
+    font-family: "Katibeh", serif;
+    color: #D98697;
+    font-size: 62px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.mainrest1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.mainrest2{
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.gallery_wrap {
+    width: 100%;
+    margin-top: 500px;
+    display: flex; /* Flexbox 레이아웃을 사용 */
+    flex-direction: column; /* 자식 요소들을 수직 방향으로 정렬 */
+    align-items: center;
+}
+
+.galltitle {
+    text-align: center;
+    font-family: "Katibeh", serif;
+    color: #D98697;
+    font-size: 64px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.img_con{
+    margin-left: -180px;
+}
+
+.item img{
+    height: 428px;
+}
+
+.item2 img{
+    width: 576px;
+    height: 428px;
+}
+
+.img_wrap{
+    width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3개의 열로 구성 */
+    gap: 25px;
+}
+
+.img_wrap2{
+    width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 열로 구성 */
+    gap: 25px;
+    margin-top: 22px;
+}
+
+
+
+
+
+.footer_container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D98697;
+    margin-top: 150px;
+}
+
+.footer_up{
+    width: 100%;    
+    height: auto;  
+    display: flex;
+}
+
+.footer_wrap{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195px;
+    margin-top: 160px;
+}
+
+.footerttx{
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}
+
+.footerttx2{
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+
+.footer_wrap2{
+    width: 740px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-left: 110px;
+}
+
+.footerttx{
+    font-family: "Katibeh", serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}
+
+.footerttx2{
+    font-size: 17px;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.footer_separator{
+    width: 1px;
+    height: 250px; /* 선의 높이 조절 */
+    background-color: #ffffff; /* 선의 색상, 여기서는 검은색으로 설정 */
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.footer_down{
+    width: 100%;
+    display: grid; /* 그리드 레이아웃 사용 */
+    place-items: center; /* 수평 및 수직 중앙 정렬 */
+    height: 100%;
+    margin-top: 100px;
+}
+
+.line2{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.footerimg{
+    position: absolute;
+    background-color: #D98697;
+}
+
+.footerdownttx{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+}
